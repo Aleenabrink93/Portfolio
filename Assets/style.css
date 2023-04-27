@@ -1,0 +1,174 @@
+/* *{border: black solid 1px} */
+
+Body{background-color:white;
+}
+header{
+    width: 100%;
+    background-color: #fbdecf;
+    height: 150px;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    
+}
+
+.logo {
+    margin-left: 50px;
+    max-height: 100px;
+    position: fixed;
+    top: 10px;
+}
+/* nav bar */
+nav ul {
+    margin-left: 75%;
+    position: fixed;
+    top: 50px;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+     ;
+    color: var(--maintext);
+    width: 100px;
+    display:block;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    border-left: #FE2800 2px solid;
+}
+
+nav a:hover{
+    text-shadow: 2px 1px 2px #e19d79cf ;
+}
+    
+
+
+/* hero section */
+#hero {
+    height:700px;
+    width: 100%;
+    position: relative;
+    background-color: #fbdecf;
+    display: flex;
+}
+
+.hero-image {
+    height:70%;
+    margin-top: 150px;
+    position: relative;
+    left: 40%;
+  
+}
+.hero-text {
+    color: #FE2800;
+    width: 30%;
+    height: 50%;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    justify-content: center;
+    left: 100px;
+    
+}
+/* your next developer */
+.highlight {
+    color: white;
+    background-color: #FE2800;
+    padding: 5px;
+    position: relative;
+}
+/* about section */
+#about {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+#about pre {
+    height: 100%;
+    width: 60px;
+    display: inline-block;
+    color: white;
+    background-color: #FE2800;
+    text-transform: uppercase;
+}
+
+#about p{
+width: 70%;
+height: 80%;
+display: inline-block;
+margin-left: 5%;
+line-height: 2;
+margin-top: 50px;
+}
+
+/* work section */
+#work {
+    height: 400px;
+    max-width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#work pre {
+    height: 100%;
+    width: 60px;
+    display: inline-block;
+    color: white;
+    background-color: #FE2800;
+    text-transform: uppercase;
+}
+.highlight-work {
+    max-width: 30%;
+    max-height: 400px;
+    justify-content: center;
+}
+
+.card {
+    max-width: 20%;
+    max-height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* contact section */
+#contact {
+    height: 400px;
+    width: 100%;
+    margin-top: 5px;
+    display: inline-block;}
+
+#contact pre {
+    height: 100%;
+    width: 60px;
+    display: inline-block;
+    color: white;
+    background-color: #FE2800;
+    text-transform: uppercase; }
+
+.icon 
+
+
+/* footer */
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: #fbdecf;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+
+
+    
